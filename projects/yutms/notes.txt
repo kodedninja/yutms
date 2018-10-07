@@ -1,0 +1,3 @@
+To Remember
+
+- for time estimation: estimate a best case scenario (minimum) time and an approx. worst case scenario (maximum) time
