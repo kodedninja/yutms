@@ -1,5 +1,5 @@
 ##### yutms
-###### (yet untitled task management system) v0.1.0
+###### (yet untitled task management system) v0.1.1
 ―
 
 #### background
@@ -24,7 +24,7 @@ projects/              directory for every project that has unanswered questions
 	notes.txt             notes to remember
 
 ```
-Files containing not important data shouldn't be kept.
+In the `journal` every day should be in its precise location. This results months with 5 weeks and weeks with less than 7 days.
 
 #### usage
 yutms is the middle layer of my daily task management (more detailed todos for micro, Google Calendar for the macro), so it doesn't contain time, space or detailed content.
@@ -35,9 +35,15 @@ The __`Maybe`__ list is for tasks that you may do, but you wouldn't be disappoin
 
 __`Reminders`__ is for small things you want to remember (motivation, stuff you should not forget).
 
-Try to work on tasks from the __`Soon`__. If you do something else, that's not a problem, but try to stick to these tasks. You can sort them by priority, but it's not important.
+Try to work on tasks from the __`Soon`__. If you do something else, that's not a problem, but try to stick to these as much as you can. You can sort them by priority or in chronological order, but it's not obligatory.
 
 Every time you finish a task from one of the lists pull it up to the current day. If you've completed something that's not on the list, just write it directly to the day. Note every task you completed.
 
+I usually also tag my tasks with the name of the project they belong to. So the format of the task is `projectname: task`.
+
 #### syncing
 Right now I use Dropbox to sync it across devices, but this will change in the future. I also share it over Dat but only as a backup, yet.
+
+#### changelog
+##### 0.1.1
+Directories in the `journal` have a new naming format: `i_name` (ex: `1_january`, `3_march`). This way they always stay sorted.
